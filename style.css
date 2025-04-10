@@ -2,20 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    background-color:rgba(154, 151, 149, 0.542);
-    color: #ff0000;
-    line-height: 2.3;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
     text-align: center;
 }
 
 header {
-    background: #a777ea;
-    color: white;
+    background-image: url("/pw/img/godofwar.png");
+    background-size: cover;
+    color: rgb(255, 255, 255);
     padding: 20px;
+    height: 8em;
+    border-radius: 100px;
+    text-align:center;
 }
 
 nav ul {
@@ -29,27 +33,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 253, 253);
     text-decoration: none;
     font-weight: bold;
 }
 a:hover{
-    color: rgb(255, 188, 238);
+    color: brown;
+    border-style: solid;
+    border-radius: 100px;
+    background-color:white;
 }
-#h2{
-    color: rgb(0, 0, 0);
-}
-#p1{
-    color:teal;
-}
-#black{
-    color: #333;
-}
-
 main {
     padding: 20px;
 }
-
+#home:hover{
+    background-color:rgb(162, 162, 190);
+    transition: 0.7s;
+}
 section {
     margin-bottom: 20px;
     background: white;
@@ -59,20 +59,20 @@ section {
 }
 
 .destaque {
-    background: #eface7;
+    background: #3c3a38;
     color: white;
     padding: 20px;
     font-size: 1.2em;
 }
-#h21{
-    color: black;
-}
-#str{
-    color: #333;
+.destaque:hover{
+    padding: 20px;
+    font-size: 1.2em;
+    transition: 0.7s;
+    background-color: rgb(243, 58, 58);
 }
 
 footer {
-    background: #8109c6;
+    background: #333;
     color: white;
     padding: 10px;
     margin-top: 20px;
