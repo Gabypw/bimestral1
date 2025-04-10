@@ -2,148 +2,193 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, sans-serif;
 }
-body{
-    margin: 15px;
-    padding: 10px;
-    background-color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
 }
-header{
-    border-style: solid;
+
+header {
+    background-image: url("/pw/img/callof.png.png");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 8em;
     border-radius: 100px;
-    text-align: center;
-    background-color:white;
-    padding: 2px;
-    background: linear-gradient(to left, rgb(255, 246, 169) , rgb(184, 20, 20));
+    text-align:center;
 }
-#h21{
-    text-align: center;
-    text-decoration: solid;
-}
-section{
-    margin: 40px 0;
-    border-radius: 8px;
-    box-shadow: 0 px 2px 0px 0px 2px;
-}
-nav{
-    padding: 30px;
-    margin: 5px;
-}
-nav ul{
-    list-style:disc;
+nav ul {
+    list-style: none;
     padding: 0;
 }
-nav ul li{
-    margin: 12px 20px;
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-weight: bold;
+}
+#ps4:hover{
+    color: blue;
+    border-style: solid;
+    border-radius: 100px;
+    transition: 0.7s;
+}
+#xbox:hover{
+    color: springgreen;
+    border-style: solid;
+    border-radius: 100px;
+    transition:0.7s;
+}
+#base:hover{
+    color: rosybrown;
+    border-style: solid;
+    transition: 0.7s;
+}
+#callof:hover{
+    background-image: url(/pw/img/gof2.png);
 }
 a{
     text-decoration: none;
-    color: darkgray;
 }
-a:hover{
-    color: blueviolet;
-}body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Cabeçalho */
-header {
-    background: linear-gradient(to right, blue, red);
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-/* Seções */
-section {
+.ps {
     margin: 40px 0;
     padding: 20px;
     background: white;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* 🔹 BACKGROUNDS */
-.bg-example {
+.jogops4{
     width: 400px;
     height: 400px;
     display: inline-block;
     margin: 10px;
     border: 2px solid #333;
 }
-
-/* Background Color */
-#bg-color {
-   /* background: linear-gradient(to right, blue, red);*/
-    background:
-   /* background-color: lightblue;*/
+a{
+    border-style: solid;
+    border-radius: 85px;
+    color: white;
 }
-
-/* Background Image */
-
-#bg-image {
-    background-image: url("/img/img.png");
-    background-size:cover;
+#godof{
+    background-image: url(/pw/img/gof2.png);
 }
-
-/* Background Repeat */
-#bg-repeat {
-    background-image: url('/img/img.png');
-    background-size: 80px 80px;
-    background-repeat: repeat;
-}
-
-/* Background Position */
-#bg-position {
-    background-image: url('/img/img.png');
-    background-repeat:unset;
-    background-size: 50px;
-    background-position:360px 330px;
-}    
-
-/* Background Atachment*/
-#bg-attachment{
-    background-image: url('/img/image.png');
-    background-attachment:local;
-}
-
-/* 🔹 FONTES */
-.font-family {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.font-weight {
-    font-weight: bold;
-}
-
-.font-style {
-    font-style: italic;
-}
-
-.font-size {
-    font-size: 24px;
-}
-
-/* 🔹 ESTILOS DE TEXTO */
-.text-color {
+#a1:hover{
     color: red;
+    background-color: #070707;
+    border-radius: 100px;
+    transition: 0.7s;
 }
-
-.text-align {
-    text-align: center;
+#spider{
+    background-image: url(/pw/img/spider.png);
+    background-size: cover;
 }
-
-.text-decoration {
-    text-decoration: underline line-through;
+#a2:hover{
+    color: black;
+    background-color: red;
+    transition: 0.7s;
 }
-
-.text-transform {
-    text-transform: uppercase;
+#assassin{
+    background-image: url(/pw/img/acreed.png);
+    background-size:contain;
+}
+#a3:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    transition: 0.7s;
+}
+#mine{
+    background-image: url(/pw/img/mine.png);
+}
+#a4:hover{
+    color: springgreen;
+    background-color: blue;
+    transition: 0.7s;
+}
+#ea{
+    background-image: url(/pw/img/fc25.png);
+}
+#a5{
+    color: white;
+}
+#a5:hover{
+    color: chocolate;
+    background-color: white;
+    transition: 0.7s;
+}
+/*SEC XBOX*/
+.xbox{
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.jogosxbox{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #333;
+}
+#maycry{
+    background-image: url(/pw/img/dv_may5.png);
+    background-size: cover;
+}
+#a11:hover{
+    color: slateblue;
+    background-color: #f4f4f4;
+    transition: 0.7s;
+}
+#mk1{
+    background-image: url(/pw/img/mk1.png);
+    background-size: cover;
+}
+a{
+    color: black;
+}
+#a22:hover{
+    color: tomato;
+    background-color: black;
+    transition: 0.7s;
+}
+#gta5{
+    background-image: url(/pw/img/gt5.png);
+    background-size: cover;
+}
+#a33{
+    color: white;
+}
+#a33:hover{
+    color: yellow;
+    background-color:sandybrown;
+    transition: 0.7s;
+}
+#calld{
+    background-image: url(/pw/img/bops.png);
+    background-size: cover;
+}
+#a44{
+    color: white;
+}
+#a44:hover{
+    color: orange;
+    background-color:#333;
+}
+#unity{
+    background-image: url(/pw/img/aunity.png);
+    background-size: cover;
+}
+#a55:hover{
+    color: aliceblue;
+    background-color:cadetblue;
+    transition: 0.7s;
 }
